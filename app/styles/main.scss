@@ -9,6 +9,24 @@ html body .units-row.end.light-blue .unit-100.head-margins {
 	margin: 0 10%;
 }
 
+.units-row .unit-80,
+ul.unit-centered.unit-80 {
+	max-width: 1600px;
+}
+
+.blah {
+	min-height: 1px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+ul li {
+	position: relative;
+	text-align: center;
+	margin: 0 10%;
+}
 
 .img-wrapper {
 	position: relative;
@@ -17,13 +35,9 @@ html body .units-row.end.light-blue .unit-100.head-margins {
 .img-wrapper img {
 	position: relative;
 	display: block;
-	margin: 0 33%;
+	margin: 0 auto;
 }
 
-
-.max-width {
-
-}
 
 .light-blue {
 	background: lightblue;
@@ -44,7 +58,6 @@ html body .units-row.end.light-blue .unit-100.head-margins {
 .no-bullets {
 	list-style: none;
 	color: white;
-	text-align: center;
 }
 
 .right-border {
@@ -59,8 +72,7 @@ html body .units-row.end.light-blue .unit-100.head-margins {
 }
 
 .nav-formatting {
-	display: inline;
-	text-align: center;
+	font-weight: bold;
 }
 
 .nav-text-styling {
