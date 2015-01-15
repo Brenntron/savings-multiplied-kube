@@ -11,7 +11,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "kube": "https://github.com/imperavi/kube.git",
-    "kube-framework": "~4.0.2"
+    "kube": "https://github.com/imperavi/kube.git"
   }
 }
