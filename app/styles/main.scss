@@ -1,6 +1,5 @@
 @import "variables";
 @import "headings";
-@import "page2-left";
 @import "page2-right";
 
 body {
@@ -88,3 +87,5 @@ ul li {
 .main-content {
 	background-color: #78CCD1;
 }
+
+@import "page2-left";
