@@ -1,5 +1,5 @@
 .filter-results-container.unit-30
-	.filter-results-form.unit-70
+	.filter-results-form
 		form(method="post" action="" class="forms")
 			.form-title Limit your search by:
 			form(action="" class="forms")
@@ -7,62 +7,92 @@
 				input(type="text" name="search" placeholder="Search")
 				span(class="btn-append")
 					button(class="btn") Search
-			form(method="post" action="" class="forms")
-				.selection-heading Condition:
-				ul(class="forms-list")
-					input(type="radio" name="radio-1" id="new")
-					label(for="new") New
-					input(type="radio" name="radio-1" id="used")
-					label(for="used") Gently Used
-			form(method="post" action="" class="forms")
-				.selection-heading Size:
-				ul(class="forms-list")
-					input(type="radio" name="radio-2" id="r4")
-					label(for="r4") 4
-					input(type="radio" name="radio-2" id="r5")
-					label(for="r5") 5
-					input(type="radio" name="radio-2" id="r6")
-					label(for="r6") 6
-					input(type="radio" name="radio-2" id="r7")
-					label(for="r7") 7
-					input(type="radio" name="radio-2" id="r8")
-					label(for="r8") 8
-					input(type="radio" name="radio-2" id="r9")
-					label(for="r9") 9
-					input(type="radio" name="radio-2" id="r10")
-					label(for="r10") 10
-					input(type="radio" name="radio-2" id="r11")
-					label(for="r11") 11
-			form(method="post" action="" class="forms")
-				.selection-heading Season:
-				ul(class="forms-list")
+
+			// Condition Selector
+			.units-container
+				.unit-50
+					.selection-heading Condition:
+				.unit-50
+					ul(class="forms-list")
+						li
+							input(type="radio" name="radio-1" id="new")
+							label(for="new") New
+						li
+							input(type="radio" name="radio-1" id="used")
+							label(for="used") Gently Used
+
+			// Size selector
+			.selection-heading Size:
+			ul(class="forms-list")
+				.units-container
+					.unit-50
+						li 
+							input(type="radio" name="radio-2" id="r4")
+							label(for="r4") 4
+						li
+							input(type="radio" name="radio-2" id="r5")
+							label(for="r5") 5
+						li
+							input(type="radio" name="radio-2" id="r6")
+							label(for="r6") 6
+						li
+							input(type="radio" name="radio-2" id="r7")
+							label(for="r7") 7
+					.unit-50
+						li
+							input(type="radio" name="radio-2" id="r8")
+							label(for="r8") 8
+						li
+							input(type="radio" name="radio-2" id="r9")
+							label(for="r9") 9
+						li
+							input(type="radio" name="radio-2" id="r10")
+							label(for="r10") 10
+						li
+							input(type="radio" name="radio-2" id="r11")
+							label(for="r11") 11
+
+			// Season selector
+			.selection-heading Season:
+			ul(class="forms-list")
+				li
 					input(type="radio" name="radio-3" id="all-seasons")
 					label(for="all-seasons") All Seasons
+				li
 					input(type="radio" name="radio-3" id="spring")
 					label(for="spring") Spring
+				li
 					input(type="radio" name="radio-3" id="summer")
 					label(for="summer") Summer
+				li
 					input(type="radio" name="radio-3" id="fall")
 					label(for="fall") Fall
+				li
 					input(type="radio" name="radio-3" id="winter")
 					label(for="winter") Winter
-			form(method="post" action="" class="forms")
-				.selection-heading Type:
-				ul(class="forms-list")
+
+			// Type Selector
+			.selection-heading Type:
+			ul(class="forms-list")
+				li
 					input(type="radio" name="radio-4" id="any")
 					label(for="any") Any
+				li
 					input(type="radio" name="radio-4" id="one-piece")
 					label(for="one-piece") One-Piece
+				li
 					input(type="radio" name="radio-4" id="tops")
 					label(for="tops") Tops
+				li
 					input(type="radio" name="radio-4" id="bottoms")
 					label(for="bottoms") Bottoms
-			form(method="post" action="" class="forms")
-				.selection-heading Brand:
-					select(id="brand")
-						option Janie and Jack
-						option Arizona
-						option Carter's
-						option Levi's
-						option Disney
-						option OshKosh
+
+			// Brand dropdown selector
+			.selection-heading Brand:
+				select(id="brand")
+					option Janie and Jack
+					option Arizona
+					option Carter's
+					option Levi's
+					option Disney
+					option OshKosh
