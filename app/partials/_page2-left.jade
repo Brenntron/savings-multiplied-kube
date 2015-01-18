@@ -1,67 +1,68 @@
 .filter-results-container.unit-30
-	form(method="post" action="" class="forms")
-		h1 Limit your search by:
-		form(action="" class="forms")
-			div(class="input-groups")
-			input(type="text" name="search" placeholder="Search")
-			span(class="btn-append")
-				button(class="btn") Search
+	.filter-results-form.unit-70
 		form(method="post" action="" class="forms")
-			.selection-heading Condition:
-			ul(class="forms-list")
-				input(type="radio" name="radio-1" id="new")
-				label(for="new") New
-				input(type="radio" name="radio-1" id="used")
-				label(for="used") Gently Used
-		form(method="post" action="" class="forms")
-			.selection-heading Size:
-			ul(class="forms-list")
-				input(type="radio" name="radio-2" id="r4")
-				label(for="r4") 4
-				input(type="radio" name="radio-2" id="r5")
-				label(for="r5") 5
-				input(type="radio" name="radio-2" id="r6")
-				label(for="r6") 6
-				input(type="radio" name="radio-2" id="r7")
-				label(for="r7") 7
-				input(type="radio" name="radio-2" id="r8")
-				label(for="r8") 8
-				input(type="radio" name="radio-2" id="r9")
-				label(for="r9") 9
-				input(type="radio" name="radio-2" id="r10")
-				label(for="r10") 10
-				input(type="radio" name="radio-2" id="r11")
-				label(for="r11") 11
-		form(method="post" action="" class="forms")
-			.selection-heading Season:
-			ul(class="forms-list")
-				input(type="radio" name="radio-3" id="all-seasons")
-				label(for="all-seasons") All Seasons
-				input(type="radio" name="radio-3" id="spring")
-				label(for="spring") Spring
-				input(type="radio" name="radio-3" id="summer")
-				label(for="summer") Summer
-				input(type="radio" name="radio-3" id="fall")
-				label(for="fall") Fall
-				input(type="radio" name="radio-3" id="winter")
-				label(for="winter") Winter
-		form(method="post" action="" class="forms")
-			.selection-heading Type:
-			ul(class="forms-list")
-				input(type="radio" name="radio-4" id="any")
-				label(for="any") Any
-				input(type="radio" name="radio-4" id="one-piece")
-				label(for="one-piece") One-Piece
-				input(type="radio" name="radio-4" id="tops")
-				label(for="tops") Tops
-				input(type="radio" name="radio-4" id="bottoms")
-				label(for="bottoms") Bottoms
-		form(method="post" action="" class="forms")
-			.selection-heading Brand:
-				select(id="brand")
-					option Janie and Jack
-					option Arizona
-					option Carter's
-					option Levi's
-					option Disney
-					option OshKosh
+			.form-title Limit your search by:
+			form(action="" class="forms")
+				div(class="input-groups")
+				input(type="text" name="search" placeholder="Search")
+				span(class="btn-append")
+					button(class="btn") Search
+			form(method="post" action="" class="forms")
+				.selection-heading Condition:
+				ul(class="forms-list")
+					input(type="radio" name="radio-1" id="new")
+					label(for="new") New
+					input(type="radio" name="radio-1" id="used")
+					label(for="used") Gently Used
+			form(method="post" action="" class="forms")
+				.selection-heading Size:
+				ul(class="forms-list")
+					input(type="radio" name="radio-2" id="r4")
+					label(for="r4") 4
+					input(type="radio" name="radio-2" id="r5")
+					label(for="r5") 5
+					input(type="radio" name="radio-2" id="r6")
+					label(for="r6") 6
+					input(type="radio" name="radio-2" id="r7")
+					label(for="r7") 7
+					input(type="radio" name="radio-2" id="r8")
+					label(for="r8") 8
+					input(type="radio" name="radio-2" id="r9")
+					label(for="r9") 9
+					input(type="radio" name="radio-2" id="r10")
+					label(for="r10") 10
+					input(type="radio" name="radio-2" id="r11")
+					label(for="r11") 11
+			form(method="post" action="" class="forms")
+				.selection-heading Season:
+				ul(class="forms-list")
+					input(type="radio" name="radio-3" id="all-seasons")
+					label(for="all-seasons") All Seasons
+					input(type="radio" name="radio-3" id="spring")
+					label(for="spring") Spring
+					input(type="radio" name="radio-3" id="summer")
+					label(for="summer") Summer
+					input(type="radio" name="radio-3" id="fall")
+					label(for="fall") Fall
+					input(type="radio" name="radio-3" id="winter")
+					label(for="winter") Winter
+			form(method="post" action="" class="forms")
+				.selection-heading Type:
+				ul(class="forms-list")
+					input(type="radio" name="radio-4" id="any")
+					label(for="any") Any
+					input(type="radio" name="radio-4" id="one-piece")
+					label(for="one-piece") One-Piece
+					input(type="radio" name="radio-4" id="tops")
+					label(for="tops") Tops
+					input(type="radio" name="radio-4" id="bottoms")
+					label(for="bottoms") Bottoms
+			form(method="post" action="" class="forms")
+				.selection-heading Brand:
+					select(id="brand")
+						option Janie and Jack
+						option Arizona
+						option Carter's
+						option Levi's
+						option Disney
+						option OshKosh
