@@ -1,6 +1,5 @@
 @import "variables";
 @import "headings";
-@import "page2-left";
 @import "page2-right";
 
 body {
@@ -85,6 +84,7 @@ ul li {
 	display: inline;
 }
 
+<<<<<<< HEAD
 .bottomlink {
 	display: inline;
 	text-align: center;
@@ -124,3 +124,9 @@ ul li {
 	margin-top: 20px;
 	margin-left: 200px;
 }
+=======
+.main-content {
+	background-color: #78CCD1;
+}
+
+@import "page2-left";
