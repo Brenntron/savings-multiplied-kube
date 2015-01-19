@@ -22,21 +22,26 @@ html(lang="en-US")
           .unit-40
             img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
           .unit-60
-            .units-row.end
-              button.btn.btn-blue.btn-round.btn-smaller About
-              button.btn.btn-green.btn-round.btn-smaller Contact
-              button.btn.btn-yellow.btn-round.btn-smaller Blog
-              button.btn.btn-red.btn-round.btn-smaller Press
-            .units-row.end
+            .units-row.end.top-nav-ul
+              button.btn.btn-blue.btn-round.btn-smaller.top-nav About
+              button.btn.btn-green.btn-round.btn-smaller.top-nav Contact
+              button.btn.btn-yellow.btn-round.btn-smaller.top-nav Blog
+              button.btn.btn-red.btn-round.btn-smaller.top-nav Press
+            .units-row.end.tagline
               img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
 
     nav.navbar.nav-fullwidth.light-pink.end
-      ul.unit-centered.unit-80
-        li.nav-text-styling.nav-formatting Buy
-        li.nav-text-styling.nav-formatting Sell
-        li.nav-text-styling.nav-formatting How it Works
-        li.nav-text-styling.nav-formatting Links
-        li.nav-text-styling.nav-formatting Community
+      ul.unit-centered.unit-100
+        li.nav-text-styling.nav-formatting 
+          a(href='page2.html') Buy
+        li.nav-text-styling.nav-formatting 
+          a(href='#') Sell
+        li.nav-text-styling.nav-formatting 
+          a(href='index.html') How it Works
+        li.nav-text-styling.nav-formatting 
+          a(href='#') Links
+        li.nav-text-styling.nav-formatting 
+          a(href='#') Community
         li 
           input(type="search" placeholder="Search")
 
@@ -44,38 +49,31 @@ html(lang="en-US")
       .unit-centered.unit-80.white
         .units-row
           .unit-50
-            h4 We're making one aspect of life easier for parents of multiples
-            h6 buying and selling gently used sets of clothes
+            h2.subheader We're making one aspect of life easier for parents of multiples.
+            p.words Buying and selling gently used sets of clothes.
             //headers, icon, shop now button, image tree
           .unit-50
             .img-wrapper
-              img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
-              img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
-              img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
+              img.babies(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/twins.jpg")
+              img.babies(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/triplets.jpg")
+              img.babies(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/children/quads.jpg")
         .units-row
           .unit-25
-            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/facebook_callout.png")
+            img.callout(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/facebook_callout.png")
           .unit-25
-            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/twitter_callout.png")
+            img.callout(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/twitter_callout.png")
           .unit-25
-            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/message_board_callout.png")
+            img.callout(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/message_board_callout.png")
           .unit-25
-            img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/special_offers_callout.png")
+            img.callout(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/homepage/special_offers_callout.png")
 
     nav.navbar.nav-fullwidth.end.dark-blue
-      ul.no-bullets.unit-centered.unit-80
-        li Link Here
-        p |
-        li Link Here
-        p |
-        li Link Here
-        p |
-        li Link Here
-        p |
-        li Link Here
-        p |
-        li Link Here
-
+      ul.no-bullets.unit-centered.unit-80.bottomul
+        li.bottomlink Link Here
+        li.bottomlink Link Here
+        li.bottomlink Link Here
+        li.bottomlink Link Here
+        li.bottomlink Link Here
 
     script(src="js/main.js")
     script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js")

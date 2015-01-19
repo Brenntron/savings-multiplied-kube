@@ -22,7 +22,7 @@ html(lang="en-US")
           .unit-40
             img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/savings-multiplied-logo.png")
           .unit-60
-            .units-row.end
+            .units-row.end.top-nav-ul
               button.btn.btn-blue.btn-round.btn-smaller About
               button.btn.btn-green.btn-round.btn-smaller Contact
               button.btn.btn-yellow.btn-round.btn-smaller Blog
@@ -31,18 +31,31 @@ html(lang="en-US")
               img(src="https://raw.githubusercontent.com/elizabrock/SavingsMultipliedRedux/master/app/assets/images/tagline.png")
 
     nav.navbar.nav-fullwidth.light-pink.end
-      ul.unit-centered.unit-80
-        li.nav-text-styling.nav-formatting Buy
-        li.nav-text-styling.nav-formatting Sell
-        li.nav-text-styling.nav-formatting How it Works
-        li.nav-text-styling.nav-formatting Links
-        li.nav-text-styling.nav-formatting Community
+      ul.unit-centered.unit-100
+        li.nav-text-styling.nav-formatting 
+          a(href='page2.html') Buy
+        li.nav-text-styling.nav-formatting 
+          a(href='#') Sell
+        li.nav-text-styling.nav-formatting 
+          a(href='index.html') How it Works
+        li.nav-text-styling.nav-formatting 
+          a(href='#') Links
+        li.nav-text-styling.nav-formatting 
+          a(href='#') Community
         li 
           input(type="search" placeholder="Search")
 
     .main-content.units-row.white.end
       include ./partials/_page2-left.jade
       include ./partials/_page2-right.jade
+
+    nav.navbar.nav-fullwidth.end.dark-blue
+        ul.no-bullets.unit-centered.unit-80.bottomul
+          li.bottomlink Link Here
+          li.bottomlink Link Here
+          li.bottomlink Link Here
+          li.bottomlink Link Here
+          li.bottomlink Link Here
 
 
 
