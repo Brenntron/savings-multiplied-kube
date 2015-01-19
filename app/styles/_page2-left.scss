@@ -1,15 +1,18 @@
 .filter-results-container {
 	color: darken(#EDF9D3, 50%);
-	background-color: white;
+	background-color: #78CCD1;
 }
 
 .filter-results-form {
 	background-color: #EDF9D3;
 	border-radius: 45px;
 	float: right;
-
 }
 
 ul li {
 	text-align: left;
+}
+
+.limiter {
+	text-align: center;
 }
